@@ -47,7 +47,6 @@
                   <div class="d-flex justify-content-between" >
                     <span class="d-block-block fw-bold mb-3">$ <?= $value['price'] ?></span>
                     <?php
-                    
                     $rate_color = ($value['rate'] >= 3) ? 'text-success' : 'text-danger';
                     ?>
                     <p><label>Rating: </label><span class="fw-bold <?=$rate_color ?>"><?= $value['rate'] ?></span></p>
